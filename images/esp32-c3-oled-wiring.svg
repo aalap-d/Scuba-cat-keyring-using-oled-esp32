@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+  <rect width="1000" height="560" rx="20" fill="#f8fafc"/>
+  <text x="500" y="42" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" fill="#0f172a">ESP32-C3 SuperMini → SH1106 I²C OLED</text>
+  <text x="500" y="70" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" fill="#475569">Four-wire connection • Power off before wiring</text>
+  <!-- ESP32 board -->
+  <rect x="110" y="115" width="330" height="370" rx="24" fill="#166534" stroke="#14532d" stroke-width="3"/>
+  <rect x="205" y="145" width="140" height="88" rx="8" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="223" y="162" width="104" height="54" rx="4" fill="#64748b"/>
+  <text x="275" y="189" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#f8fafc">ESP32-C3</text>
+  <text x="275" y="209" font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#f8fafc">SuperMini</text>
+  <text x="275" y="260" font-family="Arial,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#ffffff">ESP32-C3</text>
+  <text x="140" y="302" font-family="Arial,sans-serif" font-size="14" fill="#ffffff">3V3</text>
+  <text x="140" y="350" font-family="Arial,sans-serif" font-size="14" fill="#ffffff">GND</text>
+  <text x="140" y="398" font-family="Arial,sans-serif" font-size="14" fill="#ffffff">GPIO 6</text>
+  <text x="140" y="446" font-family="Arial,sans-serif" font-size="14" fill="#ffffff">GPIO 7</text>
+  <circle cx="395" cy="297" r="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="395" cy="345" r="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="395" cy="393" r="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="395" cy="441" r="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <!-- OLED -->
+  <rect x="650" y="165" width="250" height="240" rx="18" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+  <rect x="675" y="190" width="200" height="145" rx="6" fill="#020617" stroke="#94a3b8" stroke-width="2"/>
+  <text x="775" y="253" font-family="Arial,sans-serif" font-size="19" font-weight="700" text-anchor="middle" fill="#a7f3d0">128 × 64</text>
+  <text x="775" y="279" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#a7f3d0">OLED</text>
+  <text x="775" y="364" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#f8fafc">SH1106 • I²C</text>
+  <text x="680" y="438" font-family="Arial,sans-serif" font-size="14" fill="#0f172a">VCC</text>
+  <text x="730" y="438" font-family="Arial,sans-serif" font-size="14" fill="#0f172a">GND</text>
+  <text x="790" y="438" font-family="Arial,sans-serif" font-size="14" fill="#0f172a">SDA</text>
+  <text x="850" y="438" font-family="Arial,sans-serif" font-size="14" fill="#0f172a">SCL</text>
+  <path d="M395 297 H510 V430 H680" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <path d="M395 345 H535 V460 H730" fill="none" stroke="#334155" stroke-width="4"/>
+  <path d="M395 393 H560 V490 H790 V430" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <path d="M395 441 H585 V515 H850 V430" fill="none" stroke="#d97706" stroke-width="4"/>
+  <text x="510" y="285" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#b91c1c">3.3 V → VCC</text>
+  <text x="535" y="333" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#334155">GND → GND</text>
+  <text x="560" y="381" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#1d4ed8">GPIO 6 → SDA</text>
+  <text x="585" y="429" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#b45309">GPIO 7 → SCL</text>
+  <rect x="110" y="505" width="790" height="35" rx="8" fill="#e2e8f0"/>
+  <text x="505" y="528" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#0f172a">Use 3.3 V • I²C address in sketch: 0x3C</text>
+</svg>
